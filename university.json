@@ -1,0 +1,56 @@
+{
+  "name": "NTU",
+  "head": {
+    "firstName": "Kyrylo",
+    "lastName": "Bublyk",
+    "middleName": "Olegovych",
+    "gender": "MALE"
+  },
+  "faculties": [
+    {
+      "name": "Faculty of Engineering",
+      "head": {
+        "firstName": "Alex",
+        "lastName": "Kazarynov",
+        "middleName": "Valeriyovich",
+        "gender": "MALE"
+      },
+      "departments": [
+        {
+          "name": "Department of Computer Science",
+          "head": {
+            "firstName": "Oksana",
+            "lastName": "Gerasyvna",
+            "middleName": "Sergeevna",
+            "gender": "FEMALE"
+          },
+          "groups": [
+            {
+              "name": "Group 124-21-2",
+              "head": {
+                "firstName": "Alex",
+                "lastName": "Alexeev",
+                "middleName": "Alexandrovich",
+                "gender": "MALE"
+              },
+              "students": [
+                {
+                  "firstName": "Erik",
+                  "lastName": "Boghutski",
+                  "middleName": "Olegovych",
+                  "gender": "MALE"
+                },
+                {
+                  "firstName": "Liza",
+                  "lastName": "Kazarivna",
+                  "middleName": "Sergeevna",
+                  "gender": "FEMALE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

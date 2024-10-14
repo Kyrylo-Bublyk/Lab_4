@@ -1,6 +1,8 @@
 package Bublyk.Kyrylo.O.model;
 
-public abstract class Human {
+import java.util.Objects;
+
+public class Human {
     private String firstName;
     private String lastName;
     private String middleName;
@@ -19,5 +21,21 @@ public abstract class Human {
 
     public Sex getGender() {
         return gender;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Human)) return false;
+        Human human = (Human) o;
+        return Objects.equals(firstName, human.firstName) &&
+                Objects.equals(lastName, human.lastName) &&
+                Objects.equals(middleName, human.middleName) &&
+                gender == human.gender;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(firstName, lastName, middleName, gender);
     }
 }
